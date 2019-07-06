@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>495990264763-qicu1af082emegtfpeoq7fflqddauf2r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.495990264763-qicu1af082emegtfpeoq7fflqddauf2r</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>495990264763-0atmn0sqmbjcgq0jodd9257i7fgojbhm.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDUStoxkrk0hglCNakD7_2EdqFQeZWa27M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>495990264763</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.developer.ThrillingPicks</string>
+	<key>PROJECT_ID</key>
+	<string>thrilling-picks</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thrilling-picks.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:495990264763:ios:3aae6bd551e90f14</string>
+	<key>DATABASE_URL</key>
+	<string>https://thrilling-picks.firebaseio.com</string>
+</dict>
+</plist>

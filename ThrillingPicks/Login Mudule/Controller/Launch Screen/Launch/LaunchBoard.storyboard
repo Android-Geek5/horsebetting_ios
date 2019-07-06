@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AZx-6E-QrF">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nebulous-content.ttf">
+            <string>NebulousContent</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Launch ScreenVC-->
+        <scene sceneID="HlL-jr-i4R">
+            <objects>
+                <viewController storyboardIdentifier="LaunchScreenVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AZx-6E-QrF" customClass="LaunchScreenVC" customModule="ThrillingPicks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="geS-FE-jvj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashBG" translatesAutoresizingMaskIntoConstraints="NO" id="OxX-vf-8Uz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horse" translatesAutoresizingMaskIntoConstraints="NO" id="iej-Ot-kLj">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="8hZ-wQ-CBa"/>
+                                    <constraint firstAttribute="width" secondItem="iej-Ot-kLj" secondAttribute="height" multiplier="1:1" id="Ec4-IB-b5w"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thrilling Pickaboo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLF-0H-5ic">
+                                <rect key="frame" x="75.5" y="568" width="263" height="38.5"/>
+                                <fontDescription key="fontDescription" name="NebulousContent" family="Nebulous Content" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iej-Ot-kLj" firstAttribute="centerX" secondItem="OxX-vf-8Uz" secondAttribute="centerX" id="EiF-AX-tFo"/>
+                            <constraint firstAttribute="bottom" secondItem="OxX-vf-8Uz" secondAttribute="bottom" id="JGZ-Ke-5wn"/>
+                            <constraint firstItem="OxX-vf-8Uz" firstAttribute="leading" secondItem="geS-FE-jvj" secondAttribute="leading" id="N36-uh-I2E"/>
+                            <constraint firstItem="iej-Ot-kLj" firstAttribute="width" secondItem="iej-Ot-kLj" secondAttribute="height" multiplier="1:1" id="N4I-uw-0gc"/>
+                            <constraint firstItem="yLF-0H-5ic" firstAttribute="centerX" secondItem="iej-Ot-kLj" secondAttribute="centerX" id="Nfh-nR-7X5"/>
+                            <constraint firstItem="wzB-Qk-cZ2" firstAttribute="trailing" secondItem="OxX-vf-8Uz" secondAttribute="trailing" id="QG5-Sh-OLo"/>
+                            <constraint firstItem="iej-Ot-kLj" firstAttribute="centerY" secondItem="OxX-vf-8Uz" secondAttribute="centerY" id="bT4-gc-C86"/>
+                            <constraint firstItem="yLF-0H-5ic" firstAttribute="top" secondItem="iej-Ot-kLj" secondAttribute="bottom" constant="20" id="fqL-7K-MKi"/>
+                            <constraint firstItem="OxX-vf-8Uz" firstAttribute="top" secondItem="geS-FE-jvj" secondAttribute="top" id="nMv-w2-pi9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wzB-Qk-cZ2"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="yLF-0H-5ic" id="DkH-xf-zFk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nGb-Ri-Jcj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="-200"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="horse" width="252" height="253"/>
+        <image name="splashBG" width="968" height="1722"/>
+    </resources>
+</document>
